@@ -47,9 +47,9 @@ import { SOUNDS } from "@/lib/sounds"
 import { cn } from "@/lib/utils"
 import { copyToClipboardWithEvent } from "@/utils/copy"
 
-import { getMarkSVG, NguyenDucMark } from "./chanhdai-mark"
-import { getWordmarkSVG } from "./chanhdai-wordmark"
 import { ComponentIcon, Icons } from "./icons"
+import { getMarkSVG, NguyenDucMark } from "./nguyenduc-mark"
+import { getWordmarkSVG } from "./nguyenduc-wordmark"
 import { Button } from "./ui/button"
 import { Kbd, KbdGroup } from "./ui/kbd"
 import { Separator } from "./ui/separator"
@@ -58,7 +58,7 @@ type CommandLinkItem = {
   title: string
   href: string
 
-  icon?: React.ComponentType<LucideProps>
+  icon?: React.ElementType
   iconImage?: string
   keywords?: string[]
   openInNewTab?: boolean
@@ -466,7 +466,7 @@ function CommandLinkGroup({
 }: {
   heading: string
   links: CommandLinkItem[]
-  fallbackIcon?: React.ComponentType<LucideProps>
+  fallbackIcon?: React.ElementType
   onLinkSelect: (href: string, openInNewTab?: boolean) => void
 }) {
   return (

@@ -1,5 +1,5 @@
 import { BrandContextMenu } from "@/components/brand-context-menu"
-import { NguyenDucMark } from "@/components/chanhdai-mark"
+import { NguyenDucMark } from "@/components/nguyenduc-mark"
 import { Magnet } from "@/components/react-bits/magnet"
 import { cn } from "@/lib/utils"
 
