@@ -1,9 +1,24 @@
 "use client"
 
+import Image, { type ImageProps } from "next/image"
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
 
-export function NguyenDucMark(props: React.ComponentProps<"img">) {
+type NguyenDucMarkProps = Omit<
+  ImageProps,
+  "src" | "alt" | "width" | "height" | "fill"
+> & {
+  alt?: string
+  width?: number
+  height?: number
+}
+
+export function NguyenDucMark({
+  alt = "ducnt",
+  width = 256,
+  height = 128,
+  ...props
+}: NguyenDucMarkProps) {
   const { resolvedTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
@@ -15,7 +30,7 @@ export function NguyenDucMark(props: React.ComponentProps<"img">) {
   const src =
     !mounted || resolvedTheme !== "light" ? "/nd.png" : "/nd-light.png"
 
-  return <img src={src} alt="ducnt" {...props} />
+  return <Image src={src} alt={alt} width={width} height={height} {...props} />
 }
 
 export function getMarkSVG(color: string) {

@@ -5,7 +5,8 @@ export const PROJECTS: Project[] = [
     id: "chat-bot-prototype",
     title: "Chat Bot Prototype",
     period: {
-      start: "05.2025",
+      start: "",
+      end: "",
     },
     skills: [
       "Nextjs",
@@ -23,6 +24,8 @@ export const PROJECTS: Project[] = [
       "Weaviate",
     ],
     description: `
+- Company project
+
 - Role: Frontend Developer (Fullstack support)
 
 - Developed a dynamic chatbot management platform, including:
@@ -47,8 +50,8 @@ export const PROJECTS: Project[] = [
     id: "kdoto",
     title: "Kdoto",
     period: {
-      start: "02.2026",
-      end: "03.2026",
+      start: "",
+      end: "",
     },
     skills: [
       "Shopify",
@@ -62,6 +65,8 @@ export const PROJECTS: Project[] = [
       "Git",
     ],
     description: `
+- Company project
+
 - Role: Frontend / Theme Developer
 
 - Customized and developed a Shopify theme (Impact base) for the official website of Kashima Antlers (J-League, Japan), combining e-commerce and dynamic sports content.
@@ -87,7 +92,7 @@ export const PROJECTS: Project[] = [
     id: "riz2m-mobile-app",
     title: "Riz.2M Mobile App (iOS & Android Creative Community Platform)",
     period: {
-      start: "2025-10",
+      start: "06.2025",
       end: "Present",
     },
     skills: [
@@ -111,6 +116,7 @@ export const PROJECTS: Project[] = [
       "Git",
     ],
     description: `
+- Company project
 
 - Role: Mobile Frontend Developer (UI-focused)
 
@@ -150,6 +156,8 @@ export const PROJECTS: Project[] = [
       "Git",
     ],
     description: `
+  - Company project
+
   - Role: Frontend / UI Developer
 
   - Developed the user interface for the Yokohama FC official website remake, delivering responsive and content-driven pages for a professional football club platform.
@@ -196,6 +204,7 @@ export const PROJECTS: Project[] = [
       "Git",
     ],
     description: `
+- Company project
 
 - Role: Fullstack Developer (Frontend + Backend)
 
@@ -237,6 +246,7 @@ export const PROJECTS: Project[] = [
       "Git",
     ],
     description: `
+- Company project    
 
 - Role: Frontend Developer
 
@@ -278,7 +288,7 @@ export const PROJECTS: Project[] = [
       "Git",
     ],
     description:
-      "- Role: Frontend Developer\n\n- Built a real-time remote assistance web application using WebRTC and Socket.IO for live video/audio communication between clients.\n\n- Developed core user flows including authentication, session join, live call screen, and call-end handling for a smooth support experience.\n\n- Implemented camera, microphone, and screen-sharing controls with dynamic device switching and permission-aware behavior (blocked device detection and user guidance).\n\n- Created a live virtual pen annotation feature on top of video streams using HTML5 Canvas, including color selection, undo, clear-all, and synchronized drawing data.\n\n- Structured application state with Zustand to manage call lifecycle, media streams, device settings, and drawing paths in a predictable and maintainable way.\n\n- Improved UX with draggable local preview, responsive layout, and stable reconnect/disconnect handling for browser-based real-time communication scenarios.",
+      "- Company project \n\n- Role: Frontend Developer\n\n- Built a real-time remote assistance web application using WebRTC and Socket.IO for live video/audio communication between clients.\n\n- Developed core user flows including authentication, session join, live call screen, and call-end handling for a smooth support experience.\n\n- Implemented camera, microphone, and screen-sharing controls with dynamic device switching and permission-aware behavior (blocked device detection and user guidance).\n\n- Created a live virtual pen annotation feature on top of video streams using HTML5 Canvas, including color selection, undo, clear-all, and synchronized drawing data.\n\n- Structured application state with Zustand to manage call lifecycle, media streams, device settings, and drawing paths in a predictable and maintainable way.\n\n- Improved UX with draggable local preview, responsive layout, and stable reconnect/disconnect handling for browser-based real-time communication scenarios.",
     isExpanded: false,
   },
   {
@@ -308,6 +318,7 @@ export const PROJECTS: Project[] = [
       "Git",
     ],
     description: `
+- Company project
 
 - Role: Frontend Developer (UI-focused)
 
@@ -352,6 +363,8 @@ export const PROJECTS: Project[] = [
       "CRUD API Development",
     ],
     description: `
+- Company project
+
 - Project: A web-based design editing platform that allows users to create, customize, and export document/template-based visuals for practical business use.
 
 - Role: Fullstack Developer (Frontend-focused)
@@ -400,6 +413,8 @@ export const PROJECTS: Project[] = [
       "Responsive Web Design",
     ],
     description: `
+- Company project
+
 
 - Role: Frontend Developer (Primary) + Backend Support (Basic)
 
@@ -450,6 +465,7 @@ export const PROJECTS: Project[] = [
       "Docker",
     ],
     description: `
+- Company project
 
 - Role: Backend Developer (Data Integration & Automation)
 

@@ -13,6 +13,7 @@ export const EXPERIENCES: Experience[] = [
         title: "Full Stack Software Engineer",
         employmentPeriod: {
           start: "09.2023",
+          end: "Present",
         },
         employmentType: "Full-time",
         icon: "code",
@@ -41,20 +42,20 @@ export const EXPERIENCES: Experience[] = [
     isCurrentEmployer: true,
   },
   {
-    id: "parttime",
-    companyName: "Part-time",
+    id: "collaborator",
+    companyName: "Collaborator",
     companyWebsite: "",
     positions: [
       {
         id: "1",
         title: "Mobile App Developer",
         employmentPeriod: {
-          start: "",
-          end: "",
+          start: "06.2025",
+          end: "Present",
         },
-        employmentType: "Part-time",
+        employmentType: "Collaborator",
         icon: "code",
-        description: `- Worked as a part-time Software Engineer contributing to web and mobile application development
+        description: `- Worked as a Collaborator Software Engineer contributing to web and mobile application development
 - Developed and maintained user-facing features across frontend and mobile platforms
 - Integrated backend APIs and handled data flows for application features
 - Collaborated with team members to deliver features and improve application performance`,
