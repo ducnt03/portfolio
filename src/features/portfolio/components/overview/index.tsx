@@ -29,14 +29,7 @@ export function Overview() {
 
       <PanelContent className="space-y-2.5">
         {USER.jobs.map((job, index) => {
-          return (
-            <JobItem
-              key={index}
-              title={job.title}
-              company={job.company}
-              website={job.website}
-            />
-          )
+          return <JobItem key={index} title={job.title} />
         })}
 
         <div className="grid gap-x-4 gap-y-2.5 sm:grid-cols-2">

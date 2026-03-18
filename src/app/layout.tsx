@@ -82,14 +82,18 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/nd-ico.png",
+        url: "/nd-ico.png?v=2",
+        sizes: "any",
+      },
+      {
+        url: "/nd-ico.ico?v=2",
         sizes: "any",
       },
     ],
     apple: {
-      url: "https://assets.chanhdai.com/images/apple-touch-icon.png",
-      type: "image/png",
+      url: "/nd.png?v=2",
       sizes: "180x180",
+      type: "image/png",
     },
   },
 }
