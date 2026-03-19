@@ -365,7 +365,7 @@ export const PROJECTS: Project[] = [
     description: `
 - Company project
 
-- Project: A web-based design editing platform that allows users to create, customize, and export document/template-based visuals for practical business use.
+- Project: A web-based design editing (like canvas) platform that allows users to create, customize, and export document/template-based visuals for practical business use.
 
 - Role: Fullstack Developer (Frontend-focused)
 
@@ -393,24 +393,38 @@ export const PROJECTS: Project[] = [
       end: "",
     },
     skills: [
-      "Next.js 13",
+      "Next.js 14",
       "React 18",
       "TypeScript",
       "Tailwind CSS",
-      "Sass",
-      "Redux Toolkit",
+      "NextUI",
+      "Zustand",
       "React Hook Form",
       "Yup",
       "NextAuth",
       "Axios",
       "SWR",
+      "react-moveable",
+      "Quill",
+      "Chart.js",
+      "Framer Motion",
       "REST API Integration",
       "NestJS",
       "Node.js",
+      "Prisma ORM",
+      "PostgreSQL",
+      "BullMQ",
+      "AWS S3",
+      "Puppeteer",
+      "Sharp",
+      "Swagger",
       "ESLint",
       "Prettier",
+      "Jest",
+      "Docker",
       "Git",
       "Responsive Web Design",
+      "i18n (next-intl)",
     ],
     description: `
 - Company project
