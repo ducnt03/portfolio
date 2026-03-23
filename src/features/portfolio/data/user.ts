@@ -31,7 +31,8 @@ export const USER = {
 - Developed and customized Shopify themes and applications for e-commerce solutions.
 - Collaborated across teams to deliver features from requirement analysis to deployment.
 `,
-  avatar: "/profile-image.jpeg",
+  avatar: "/profile-image.png",
+  flipAvatar: "/profile-image.jpeg",
   ogImage:
     "https://assets.chanhdai.com/images/screenshot-og-image-dark.png?v=7",
   timeZone: "Asia/Ho_Chi_Minh",

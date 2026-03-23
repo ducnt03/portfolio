@@ -77,27 +77,6 @@ export async function generateMetadata({
   }
 }
 
-function getPageJsonLd(post: Post): WithContext<PageSchema> {
-  return {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: post.metadata.title,
-    description: post.metadata.description,
-    image:
-      post.metadata.image ||
-      `/og/simple?title=${encodeURIComponent(post.metadata.title)}`,
-    url: `${SITE_INFO.url}${getPostUrl(post)}`,
-    datePublished: new Date(post.metadata.createdAt).toISOString(),
-    dateModified: new Date(post.metadata.updatedAt).toISOString(),
-    author: {
-      "@type": "Person",
-      name: USER.displayName,
-      identifier: USER.username,
-      image: USER.avatar,
-    },
-  }
-}
-
 export default async function Page() {
   return null
 }

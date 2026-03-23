@@ -14,12 +14,31 @@ export function ProfileHeader() {
       <div className="shrink-0 border-r border-edge">
         <div className="mx-0.5 my-0.75">
           <AvatarElectricEffect>
-            <img
-              className="size-30 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40"
-              alt={`${USER.displayName}'s avatar`}
-              src={USER.avatar}
-              fetchPriority="high"
-            />
+            {USER.flipAvatar ? (
+              <div className="group relative size-30 perspective-distant sm:size-40">
+                <div className="relative size-full transition-transform duration-1000 transform-3d group-hover:transform-[rotateY(180deg)]">
+                  <img
+                    className="absolute inset-0 size-full rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none backface-hidden"
+                    alt={`${USER.displayName}'s avatar`}
+                    src={USER.avatar}
+                    fetchPriority="high"
+                  />
+
+                  <img
+                    className="absolute inset-0 size-full transform-[rotateY(180deg)] rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none backface-hidden"
+                    alt={`${USER.displayName}'s flipped avatar`}
+                    src={USER.flipAvatar}
+                  />
+                </div>
+              </div>
+            ) : (
+              <img
+                className="size-30 rounded-full ring-1 ring-border ring-offset-2 ring-offset-background select-none sm:size-40"
+                alt={`${USER.displayName}'s avatar`}
+                src={USER.avatar}
+                fetchPriority="high"
+              />
+            )}
           </AvatarElectricEffect>
         </div>
       </div>
