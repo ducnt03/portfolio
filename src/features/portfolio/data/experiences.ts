@@ -50,8 +50,8 @@ export const EXPERIENCES: Experience[] = [
         id: "1",
         title: "Mobile App Developer",
         employmentPeriod: {
-          start: "06.2025",
-          end: "Present",
+          start: "05.2025",
+          end: "03.2026",
         },
         employmentType: "Collaborator",
         icon: "code",
